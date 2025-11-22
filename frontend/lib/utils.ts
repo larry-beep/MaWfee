@@ -1,9 +1,3 @@
-import { clsx, type ClassValue } from "clsx"
-
-export function cn(...inputs: ClassValue[]) {
-  return clsx(inputs)
-}
-
 // Format date for display
 export function formatDate(dateString: string): string {
   const date = new Date(dateString);
