@@ -7,7 +7,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('memories.urls')),
     path('', include('authentication.urls')),
-    path('', include('settings.urls')),
+    path('', include('settings_app.urls')),
 ]
 
 if settings.DEBUG:
