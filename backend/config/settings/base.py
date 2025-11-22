@@ -21,7 +21,7 @@ THIRD_PARTY_APPS = [
 LOCAL_APPS = [
     'memories',
     'authentication',
-    'settings',
+    'settings_app',
 ]
 
 INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + LOCAL_APPS
